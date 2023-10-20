@@ -52,8 +52,8 @@ function App() {
     {
       songName: 'After Dark',
       songArtist: 'Mr.Kitty',
-      songSrc: './Assets/songs/1AfterDark.flac',
-      songAvatar: './Assets/Images/image1.jpg'
+      songSrc: 'https://res.cloudinary.com/dvdola2py/video/upload/v1697515586/Mr_Kitty_-_Time_-_09_After_Dark_viz2st.flac',
+      songAvatar: 'https://res.cloudinary.com/dvdola2py/image/upload/v1697515682/a6a543a0dd8f921e6c05e1987fba2170_j3dntq.jpg'
     },
     {
       songName: 'Irokousui',
