@@ -50,6 +50,13 @@ function App() {
 
   const musicAPI = [
     {
+      songName: 'Ghost City Tokyo',
+      songArtist: 'Ayase | YOASOBI',
+      songSrc: 'https://res.cloudinary.com/dvdola2py/video/upload/v1697759566/Ghost_City_Tokyo_aadm5o.mp3',
+      songAvatar: 'https://res.cloudinary.com/dvdola2py/image/upload/v1697759558/Ghost_City_Tokyo_ythik1.jpg'
+    },
+
+    {
       songName: 'After Dark',
       songArtist: 'Mr.Kitty',
       songSrc: 'https://res.cloudinary.com/dvdola2py/video/upload/v1697515586/Mr_Kitty_-_Time_-_09_After_Dark_viz2st.flac',
@@ -79,12 +86,7 @@ function App() {
       songSrc: './Assets/songs/Bury The Light.flac',
       songAvatar: './Assets/Images/image3.jpg'
     },
-    {
-      songName: 'Ghost City Tokyo',
-      songArtist: 'Ayase | YOASOBI',
-      songSrc: 'https://res.cloudinary.com/dvdola2py/video/upload/v1697759566/Ghost_City_Tokyo_aadm5o.mp3',
-      songAvatar: 'https://res.cloudinary.com/dvdola2py/image/upload/v1697759558/Ghost_City_Tokyo_ythik1.jpg'
-    }
+    
   ]
 
   const handleNextSong = ()=>{
